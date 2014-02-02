@@ -157,6 +157,14 @@ Ore: plankWood
 Ore: slabWood
 Ore: slabWood
 Ore: slabWood
+Ore: dustCoal
+Ore: dustIron
+Ore: dustGold
+Ore: dustCopper
+Ore: dustTin
+Ore: dustEnderPearl
+Ore: itemSilicon
+Ore: gearStone
 Fluid: creosote
 Fluid: steam
 Ore: nuggetIron
@@ -174,14 +182,6 @@ Ore: oreDiamond
 Ore: oreEmerald
 Ore: oreLapis
 Ore: oreFirestone
-Ore: dustCoal
-Ore: dustIron
-Ore: dustGold
-Ore: dustCopper
-Ore: dustTin
-Ore: dustEnderPearl
-Ore: itemSilicon
-Ore: gearStone
 Ore: pipeMediumBronze
 Ore: pipeMediumSteel
 Ore: pipeMediumStainlessSteel
@@ -3398,6 +3398,24 @@ Ore: bookEmpty
 Ore: bookWritable
 Ore: bookWritten
 Ore: bookEnchanted
+Ore: oreCoal
+Ore: gemDiamond
+Ore: blockDiamond
+Ore: gemEmerald
+Ore: blockEmerald
+Ore: ingotIron
+Ore: blockIron
+Ore: ingotGold
+Ore: blockGold
+Fluid: lfbiomass
+Fluid: mash
+Fluid: stillage
+Fluid: bioethanol
+Fluid: asphalt
+Fluid: ptcoke
+Fluid: diesel
+Fluid: kerosene
+Fluid: gasoline
 Ore: hambone
 Ore: blockRubber
 Fluid: iron.molten
@@ -3573,6 +3591,7 @@ Ore: solarPanelHV
 Ore: sunnariumPart
 Ore: sunnarium
 Ore: itemSuperconductor
+Found ConfigField creosote_fermentation
 Ore: stoneRod
 Ore: oreCertusQuartz
 Ore: craftingQuartz
@@ -3584,6 +3603,11 @@ Ore: dustEnderPearl
 Ore: dustGold
 Ore: dustIron
 Ore: dustWheat
+Ore: gearElectrum
+Ore: ingotEnergized
+Ore: alloyPlateEnergized
+Ore: gearEnergized
+Ore: alloyPlateEnergizedHardened
 Ore: dustIron
 Ore: dustGold
 Ore: dustCoal
@@ -3670,12 +3694,10 @@ Ore: fertilizerOrganic
 Ore: wireExplosive
 Fluid: glass
 Fluid: biomass
-Fluid: bioethanol
 Fluid: seedoil
 Fluid: honey
 Fluid: juice
 Fluid: ice
-Ore: electricRail
 Ore: ingotReinforced
 Ore: ingotDraconic
 Ore: stickIron
@@ -3808,6 +3830,18 @@ Ore: componentCarbonMyofiber
 Ore: componentControlCircuit
 Ore: componentMyofiberGel
 Ore: componentArtificialMuscle
+Ore: cropPumpkin
+Ore: cropMelon
+Ore: cropPotato
+Ore: cropCarrot
+Fluid: peat
+Fluid: vegetable
+Setting up meta item: 4602:0 Blacksmithing Hammer
+Setting up meta item: 4603:0 Iron Ring
+Setting up meta item: 4600:0 Sugar Charcoal
+Setting up meta item: 4600:1 Sugar Coke
+Setting up meta item: 4600:2 Cactus Charcoal
+Setting up meta item: 4600:3 Cactus Coke
 Ore: projredPart
 Ore: projredPart
 Ore: projredPart
@@ -4088,3 +4122,7 @@ Ore: craftingCircuitTier02
 Ore: circuitBasic
 Ore: itemCompressedCarbon
 Ore: itemEnrichedAlloy
+Ore: itemCharcoalSugar
+Ore: itemCokeSugar
+Ore: itemCharcoalCactus
+Ore: itemCokeCactus
