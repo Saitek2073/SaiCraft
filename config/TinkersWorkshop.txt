@@ -35,6 +35,7 @@ block {
     I:"Crafting Slab"=3243
     I:"Crafting Station"=3233
     I:"Drying Rack"=3227
+    I:"Essence Extractor"=3234
     I:"Furnace Slab"=3192
     I:"Glass Pane"=3228
     I:"Glue Block"=3219
@@ -81,6 +82,7 @@ block {
     I:"Ores Gravel"=1488
     I:"Ores Slag"=1475
     I:Punji=3232
+    I:"Redstone Machines"=3226
     I:SDX=3247
     I:"Seared Slab"=3230
     I:"Seared Table"=1477
@@ -127,10 +129,11 @@ block {
     B:"Enable mod stone tools"=true
     B:"Enable mod wooden tools"=true
     B:"Keep hunger on death"=true
-    B:"Keep levels on death"=true
+    B:"Keep levels on death"=false
+    B:"Lower bronze output to 2 ingots"=false
     B:"Modifiers increase Mining Level"=true
     B:"Remove Vanilla Tool Recipes"=false
-    B:"Spawn beginner book"=true
+    B:"Spawn beginner book"=false
 }
 
 
@@ -140,7 +143,7 @@ block {
 
 dimblacklist {
     # True: slime islands wont generate in any ages other than overworld(if enabled); False: will generate in all non-blackisted ages
-    B:GenerateSlimeIslandInDim0Only=false
+    B:GenerateSlimeIslandInDim0Only=true
 
     # Add dimension ID's to prevent slime islands from generating in them
     I:SlimeIslandDimBlacklist <
@@ -222,6 +225,7 @@ looks {
     I:"Armor Pattern"=14025
     I:"Blank Patterns"=14019
     I:Buckets=14101
+    I:"Essence Crystal"=14114
     I:"Golden Head"=14113
     I:Jerky=14115
     I:"Jeweled Apple"=14107
@@ -321,7 +325,7 @@ tools {
     I:Excavator=14069
     I:"Frying Pan"=14058
     I:Hammer=14070
-    I:Hoe=31743
+    I:Hoe=31691
     I:Longbow=14062
     I:Longsword=14056
     I:"Lumber Axe"=14061
@@ -407,7 +411,7 @@ worldgen {
 
 "worldgen disabler" {
     B:"Add Village Generation"=true
-    B:"Generate Aluminum"=true
+    B:"Generate Aluminum"=false
     B:"Generate Aluminum Bushes"=true
     B:"Generate Cobalt and Ardite"=true
     B:"Generate Copper"=false

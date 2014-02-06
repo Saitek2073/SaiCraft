@@ -5,7 +5,7 @@ Auto Update Check: Disable
 Map Shape: Round
 Texture: Zan Minimap
 Map Position: Lower Right
-Map Scale: Normal
+Map Scale: Large
 Map Opacity: Percent100
 Large Map Scale: Auto
 Large Map Opacity: Percent100
