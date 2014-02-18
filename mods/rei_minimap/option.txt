@@ -4,9 +4,9 @@ Death Point: Disable
 Auto Update Check: Disable
 Map Shape: Round
 Texture: Zan Minimap
-Map Position: Lower Right
+Map Position: Upper Right
 Map Scale: Large
-Map Opacity: Percent100
+Map Opacity: Percent75
 Large Map Scale: Auto
 Large Map Opacity: Percent100
 Large Map Label: Disable
